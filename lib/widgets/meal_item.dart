@@ -38,6 +38,7 @@ class MealItem extends StatelessWidget {
               height: 200,
               width: double.infinity,
             ),
+
             Positioned(
                 bottom: 0,
                 left: 0,
@@ -77,9 +78,11 @@ class MealItem extends StatelessWidget {
                               label: affordabilityText),
                         ],
                       )
+
                     ],
                   ),
-                ))
+                )
+                )
           ],
         ),
       ),
